@@ -31,10 +31,10 @@ def init_db():
         if count == 0:
             print("[DB] Seeding initial user data...")
             seed_data = [
-                ('+911111111111', 'Alice', '0xAAAAReplaceWithRealTestnetAddr'),
-                ('+912222222222', 'Bob', '0xBBBBReplaceWithRealTestnetAddr'),
-                ('+913333333333', 'Rahul', '0xCCCCReplaceWithRealTestnetAddr'),
-                ('+914444444444', 'Sarah', '0xDDDDReplaceWithRealTestnetAddr')
+                ('+911111111111', 'Alice', '0x1AE0B7bb0e18cbDD46aF1F2f934F6caA7bd26f32'),
+                ('+912222222222', 'Bob', '0x1AE0B7bb0e18cbDD46aF1F2f934F6caA7bd26f32'),
+                ('+913333333333', 'Rahul', '0x1AE0B7bb0e18cbDD46aF1F2f934F6caA7bd26f32'),
+                ('+914444444444', 'Sarah', '0x1AE0B7bb0e18cbDD46aF1F2f934F6caA7bd26f32')
             ]
             conn.executemany("INSERT INTO users (phone_number, name, wallet_address) VALUES (?, ?, ?)", seed_data)
             conn.commit()
