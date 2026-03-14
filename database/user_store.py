@@ -18,7 +18,7 @@ def init_db():
         conn.execute('''
             CREATE TABLE IF NOT EXISTS users (
                 id             INTEGER PRIMARY KEY AUTOINCREMENT,
-                phone_number   TEXT UNIQUE NOT NULL,
+                phone_number   TEXT NOT NULL,
                 name           TEXT NOT NULL,
                 wallet_address TEXT NOT NULL,
                 created_at     TEXT DEFAULT CURRENT_TIMESTAMP
