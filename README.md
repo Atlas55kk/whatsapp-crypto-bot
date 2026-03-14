@@ -1,1 +1,0 @@
-# whatsapp-crypto-bot

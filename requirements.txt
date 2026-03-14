@@ -1,0 +1,6 @@
+flask
+requests
+python-dotenv
+google-generativeai
+web3
+twilio

@@ -1,0 +1,26 @@
+====================================
+  INSTATUNNEL CONFIGURATION
+====================================
+
+Public URL:  https://1uupkk.instatunnel.my
+Forwards to: http://localhost:5000
+Email:       sharma9828krishna@gmail.com
+
+------------------------------------
+  HOW TO RESTART (if terminal closes)
+------------------------------------
+
+1. Open PowerShell
+2. Run:
+   $env:Path = "D:\Node JS;C:\Users\KRISHNA SHARMA\AppData\Roaming\npm;" + $env:Path
+   instatunnel 5000
+
+NOTE: The public URL may change on restart.
+      Update .env and WhatsApp webhook if it does.
+
+====================================
+  NODE.JS PATH (for reference)
+====================================
+
+Node.js:     D:\Node JS
+npm global:  C:\Users\KRISHNA SHARMA\AppData\Roaming\npm
