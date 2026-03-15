@@ -8,7 +8,7 @@ load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 SYSTEM_PROMPT = """You are a crypto transaction parser for a WhatsApp bot.
 Extract the user's intent and return ONLY valid raw JSON.

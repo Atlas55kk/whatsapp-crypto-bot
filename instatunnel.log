@@ -1,0 +1,12 @@
+🚀 Starting tunnel for localhost:5000...
+💡 Running in anonymous mode (no API key found)
+🚀 Your app is now live at https://6rs6pk.instatunnel.my
+📋 URL copied to clipboard!
+🔗 Forwarding https://6rs6pk.instatunnel.my -> localhost:5000
+💡 Anonymous session - this tunnel will expire in 24 hours
+💡 Create a free account to get custom subdomains and longer sessions
+n⚡ Ready to receive requests! Press Ctrl+C to stop
+
+✓ Tunnel connected and ready to receive traffic
+📊 Requests: 1 | Uptime: 3m20sn→ POST /webhook ✅ 200 OK (2 bytes)nn📊 Session Summary: 1 requests handled in 1h11m48snConnection lost: connection closednReconnecting... (attempt 2/5)n✓ Tunnel connected and ready to receive traffic
+📊 Requests: 1 | Uptime: 3m53sn→ POST /webhook ✅ 200 OK (2 bytes)n📊 Requests: 2 | Uptime: 4m3sn→ POST /webhook ✅ 200 OK (2 bytes)n📊 Requests: 3 | Uptime: 4m25sn→ POST /webhook ✅ 200 OK (2 bytes)n
